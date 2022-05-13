@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: rgb(16, 182, 248);
+}
+button{
+    border-radius: 0;
+    width:120px;
+    cursor: pointer;
+    border: rgba(255, 255, 255, 0.315) 1.5px solid;
+    background-color: rgba(241, 233, 233, 0.801);
+}
+button:hover{
+    background-color: rgb(224, 201, 157);
+}
+button:active{
+    background-color: rgb(228, 187, 113);
+}
+.display{
+    width: 300px;
+    min-height: 50px;
+    height:auto;
+    margin: 0px;
+    border: rgb(221, 147, 11) 2px solid;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    word-break: break-all;
+    word-wrap: break-word;
+    background-color: rgb(112, 107, 107);
+}
+.display_main{
+    height:30px;
+    font-size: 25px;
+    width: 300px;
+    word-break: break-all;
+    color: rgba(0, 0, 0, 0.88);
+}
+.display_second{
+    height: 20px;
+    word-break: break-all;
+    color: rgba(0, 0, 0, 0.88);
+    opacity:0.8;
+}
+.inputs{
+    max-width: 300px;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    border: rgb(221, 147, 11) 2px solid;
+}
+
+.input_number{
+    width: 60px;
+}
+.eval{
+    width:320px;
+}
+ .first_row{
+    display: flex;
+    width: 180px;
+    flex-grow: 1;
+}
+.second_row{
+    display: flex;
+    width: 180px;
+    flex-grow: 1;
+}
+.third_row{
+    display: flex;
+    width: 180px;
+    flex-grow: 1;
+}
+.fourth_row{
+    display: flex;
+    width: 180px;
+    flex-grow: 1;
+} 
